@@ -1,0 +1,78 @@
+# IoT-Based Industrial Plant Safety Gas Leakage System
+
+## Overview
+
+The IoT-Based Industrial Plant Safety Gas Leakage System is designed to detect hazardous gas leakages in industrial environments and provide real-time monitoring and alerts. The system uses ESP8266 NodeMCU and MQ-series gas sensors to detect gases such as LPG, Methane, and Benzene.
+
+Sensor data is transmitted over Wi-Fi to the Blynk platform, allowing remote monitoring through a mobile application. When gas levels exceed predefined safety limits, the system activates a buzzer alert and updates the cloud dashboard.
+
+## Features
+
+* Real-time gas monitoring
+* LPG, Methane, and Benzene detection
+* Wi-Fi enabled cloud connectivity
+* Blynk dashboard integration
+* Buzzer-based alert system
+* Continuous environmental monitoring
+* Low-cost and scalable industrial safety solution
+
+## Hardware Components
+
+* ESP8266 NodeMCU
+* MQ-4 Gas Sensor
+* MQ-6 Gas Sensor
+* MQ-135 Gas Sensor
+* Buzzer
+* LCD Display
+* LEDs
+* Power Supply Unit
+
+## Software Used
+
+* Arduino IDE
+* Embedded C
+* Blynk IoT Platform
+
+## Working Principle
+
+1. Gas sensors continuously monitor the surrounding environment.
+2. NodeMCU reads sensor values and processes the data.
+3. Gas concentration levels are transmitted to the Blynk cloud platform through Wi-Fi.
+4. If gas levels exceed safety thresholds:
+
+   * Buzzer alert is activated.
+   * Gas status is updated on the Blynk dashboard.
+5. If gas levels remain within limits, the system continues monitoring.
+
+## Technologies Used
+
+* Embedded C
+* Internet of Things (IoT)
+* ESP8266
+* Wi-Fi Communication
+* Cloud Monitoring
+* Sensor Networks
+
+## Applications
+
+* Industrial Plants
+* Chemical Industries
+* Gas Storage Facilities
+* Manufacturing Units
+* Safety Monitoring Systems
+
+## Future Scope
+
+* SMS and Email Notifications
+* AI-based Predictive Maintenance
+* Multi-location Monitoring
+* Mobile Application Enhancements
+* Industrial Automation Integration
+
+## Team Members
+
+* Kalyani Gadade
+* Akanksha Pathak
+* Shruti Nimbalkar
+* Srushti Suryawanshi
+
